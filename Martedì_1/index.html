@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Primi passi operativi per creare un modello di pagina HTML pe run post.Scopri come iniziare in modo facile">
+    <title>Sviluppo di una pagina web - Blog Epicode</title>
+</head>
+<body>
+    <div>
+        <header id="home"> 
+            <img src="./Img/logo2.jpg" alt="Logo di Epicode">
+            <h1>Epicode - Il blog dei developers</h1>
+        </header>
+        <nav>
+            <a href="#home">Home</a> <br>
+            <a href="#articoli">Articoli</a> <br>
+            <a href="#collab">Lavora con noi</a> <br>
+        </nav>
+        <main >
+            <article id="articoli">
+
+                <h2>Come creare un template per i post</h2>
+                <h4><i>di Mario Rossi - pubblicato il 25-10-2020</i></h4>
+                <p>
+                    La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le parti comuni da applicare a tutte le pagine.
+                    <br><br>
+                    Le varie aree saranno quindi suddivise in:
+                </p>
+                <ul>
+                    <li>Contenuti di intestazione del tag <code> &lt;header&gt; </code></li>
+                    <li>Contenuti centrali variabili del tag <code> &lt;main&gt; </code></li>
+                    <li>Contenuti di fine pagina comuni, da inserire nel tag <code> &lt;footer&gt; </code></li>
+                </ul>
+                <p>Formattazione del codice
+                    <br><br>
+                Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i CSS. Perciò i passi saranno:
+                </p>
+                <ol>
+                    <li>Progettare il markup assegnando ad ogni specifico testo il tag appropriato</li>
+                    <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
+                    <li>Applicare gli stili CSS</li>
+                </ol>
+                <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.</p>
+                <br><br>
+                <table>
+                    <caption>Diffusione dei CSS</caption>
+                    <thead>
+                        <tr>
+                            <th>Anno</th>
+                            <th>% di utilizzo</th>
+                            <th>Supporto Browsers</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2000</td>
+                            <td>20%</td>
+                            <td>17%</td>
+                        </tr>
+                        <tr>
+                            <td>2002</td>
+                            <td>35%</td>
+                            <td>22%</td>
+                        </tr>
+                        <tr>
+                            <td>2004</td>
+                            <td>45%</td>
+                            <td>42%</td>
+                        </tr>
+                        <tr>
+                            <td>2008</td>
+                            <td>80%</td>
+                            <td>51%</td>
+                        </tr>
+                        <tr>
+                            <td>2012</td>
+                            <td>100%</td>
+                            <td>76%</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>
+                    Un test di validazione potrà essere fatto tramite il tool online 
+                    <a href="https://jigsaw.w3.org/css-validator/" title="link per il tool esterno" target="_blank"><i>-LINK ESTERNO-</i></a>
+                    dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto il nostro obbiettivo ed essere stati dei veri developers come loro:
+                    <br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/kz-wS8EJfdM?si=gvTrGMAKSeQZ3eTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </p>
+            </article>
+              
+            <section>
+                <p>Vuoi rimanere aggiornato su altre novità del blog?</p>
+                <form method="get|post" type="submit">
+                        <fieldset>
+                            <legend>Iscriviti alla nostra newsletter</legend> 
+                            <label for="email">Inserisci l'email</label>
+                            <input type="email" name="email" placeholder="Inserisci email" required>
+                            &nbsp;
+                            <button type="submit" onclick="alert('Richiesta inviata!')">Iscriviti!</button>
+                        </fieldset>
+                </form>
+            </section>
+            
+        </main>
+        <aside>
+            <h4>Articoli correlati</h4>
+            <p>
+                    Validare il codice HTML <br>
+                    Categoria: develop <br>
+                    Data: 18-09-2020
+            </p>
+            <p>
+                    Correggere la sintassi <br>
+                    Categoria: develop <br>
+                    Data: 16-09-2020
+            </p>
+            <p>
+                    Meno Kb nella pagina <br>
+                    Categoria: ottimizzazione <br>
+                    Data: 30-09-2020
+            </p>
+        </aside>
+        <footer id="collab">
+            <p><i>
+                Blog Epicode &copy;2023<br>
+                Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi - Milano. P.IVA 00112233.<br>
+                <a href="mailto:info@epicode.school">Contattaci via Email!</a>
+            </i></p>
+        </footer>
+    </div>
+</body>
+</html>
