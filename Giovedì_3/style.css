@@ -1,0 +1,34 @@
+*{
+    text-align: center;
+}
+
+#container{
+    margin-top: 5%;
+}
+
+#tabellone{
+    max-width: 80%;
+    margin:4% auto;
+}
+
+.cella {
+    display: inline-block;
+    width: 5.1%;
+    height: 106px;
+    position: relative;
+    border: 1px solid black;
+    height:auto;
+  }
+
+.estratta{
+    background-color: rgba(149, 193, 232, 0.379);
+}
+
+#tabelline{
+    margin: 2% auto
+}
+
+.tabella{
+    margin-top: 2%;
+}
+
