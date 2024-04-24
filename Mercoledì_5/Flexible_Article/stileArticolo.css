@@ -1,0 +1,31 @@
+/*body{
+    color:#612406
+}*/
+
+article{
+    background-color: #fbf7e3;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+h3{
+    padding-top: 10px;
+}
+
+#img_article{
+    max-width: 100%;
+    margin: 10px;
+}
+
+@media screen and (min-width:1200px){
+    article{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+    }
+
+   #articolo{
+    padding-left: 20px;
+   }
+
+}
