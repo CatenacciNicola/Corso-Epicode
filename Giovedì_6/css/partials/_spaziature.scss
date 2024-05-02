@@ -1,0 +1,11 @@
+@each $size, $value in $padding {
+  .p-#{$size} {
+    padding: $value;
+  }
+}
+
+@each $size, $value in $margin {
+  .m-#{$size} {
+    margin: $value;
+  }
+}

@@ -1,0 +1,5 @@
+@each $color, $value in $button-color {
+  .button-#{$color} {
+    background-color: $value;
+  }
+}

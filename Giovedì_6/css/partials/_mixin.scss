@@ -1,0 +1,10 @@
+@mixin button {
+  padding: 15px 20px;
+  margin: 5px;
+}
+
+@mixin titleBig($padding: 20px) {
+  font-size: $font-title;
+  color: rgb(35, 4, 51);
+  padding: $padding;
+}

@@ -1,0 +1,26 @@
+header {
+  background-color: $background-color;
+  height: 50vh;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    ul {
+      display: flex;
+    }
+  }
+  #container {
+    display: flex;
+    position: relative;
+    div {
+      h1 {
+        @include titleBig;
+      }
+    }
+    img {
+      position: absolute;
+      bottom: -80px;
+      right: 50px;
+      width: 200px;
+    }
+  }
+}
