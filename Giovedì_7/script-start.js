@@ -75,3 +75,10 @@ secondButton.addEventListener("click", function () {
 
 //IDENTIFICO IL BOTTONE ED ESTRAGGO IL TESTO INSERITO NEL CAMPO DI RICERCA
 //LO PASSO COME PARAMETRO DELLA VARIABILE immagini AL CLICK SUL BOTTONE RICHIAMANDO getImage
+
+searchButton.addEventListener("click", function (e) {
+  e.preventDefault();
+  let immagini = document.getElementsByTagName("input")[0].value;
+  getImage(immagini);
+  document.getElementsByTagName("input")[0].value = "";
+});
