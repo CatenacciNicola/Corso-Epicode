@@ -62,6 +62,8 @@ const getImage = function (choice) {
     });
 };
 
+getImage("mouse");
+
 firstButton.addEventListener("click", function () {
   let immagini = "cats";
   getImage(immagini);
